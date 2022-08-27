@@ -1,0 +1,30 @@
+body {
+  background-color: black;
+  font-family: monospace;
+  font-size: 1.1em;
+  color: white;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 140px;
+  min-width: 20%;
+  min-height: 12%;
+  outline: solid 2px white;
+  padding: 0.5em;
+}
+
+.text::after {
+  content: "\a0";
+  display: inline-block;
+  background-color: white;
+  white-space: normal;
+}
